@@ -1,0 +1,25 @@
+<?xml version='1.0'?>
+
+<!-- WEB SERVER META DATA -->
+<webserver
+    title="Another Excellent Webserver"
+    date="March 2018"
+    author="Oh Am I"
+>
+
+<!-- DEFAULT DOCUMENTS -->
+<!-- macOS style -->
+<context defaultDocument="/Users/noahblumenfeld/Development/School/Networks/Homework/WebServer/serverFiles/index.html"></context> 
+
+
+<!-- DOCUMENT ROOT -->
+<context documentRoot="/Users/noahblumenfeld/Development/School/Networks/Homework/WebServer/serverFiles/"></context>
+
+<!-- LOG FILE -->
+<!-- macOS / Linux style -->
+<logfile log="./logs/log.txt"></logfile> 
+
+<!--404 FILE -->
+<context fourofour = "/Users/noahblumenfeld/Development/School/Networks/Homework/WebServer/serverFiles/404.html"></context>
+
+</webserver>
